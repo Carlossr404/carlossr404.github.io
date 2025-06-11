@@ -11,7 +11,7 @@ fetch('https://api.github.com/users/carlossr404/repos?sort=updated&per_page=4')
             // Images
             const image = document.createElement('img')
             image.classList.add('project-image')
-            image.src = `imgs/projects/${repo.name}.png`
+            image.src = `assets/imgs/projects/${repo.name}.png`
             image.alt = `${repo.name} project screenshot`
 
             // Project info container

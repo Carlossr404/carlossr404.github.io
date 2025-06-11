@@ -79,8 +79,12 @@ section {
     align-items: center;
     text-decoration: none;
     color: inherit;
-    font-size: 0.5rem;
     transition: transform 0.2s ease;
+}
+
+.home-imgs-container p {
+    font-size: 0.5rem;
+
 }
 
 /* Styling for profile image */
@@ -89,7 +93,13 @@ section {
     margin-bottom: 10px;
 }
 
-.github-icon {
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.icon {
     height: 35px;
     width: 35px;
     padding-bottom: 15px;
@@ -97,13 +107,8 @@ section {
     transition: transform 0.2s ease;
 }
 
-.home-imgs-container a:hover {
-    transform: scale(1.1);
-
-}
-
-.github-icon:hover {
-    transform: scale(1.1);
+.icon:hover {
+    transform: scale(1.25);
 }
 
 /* HOME STYLING END */

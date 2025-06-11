@@ -7,7 +7,7 @@ This is my personal website/portfolio developed using HTML, CSS, and some JavaSc
 Landing page for my website. Includes bio and headshot injected from github via github API. Also includes link to my github account.
 
 TODO: <br/>
-[ ] Add link to LinkedIn
+- [ ] Update headshot
 
 ### About - 
 Includes a longer bio as well as a downloadable pdf of my resume.
