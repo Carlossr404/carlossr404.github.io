@@ -16,6 +16,7 @@ body {
     font-family: "Ubuntu", sans-serif;
     font-size: var(--font-size-base);
     color: #FFF;
+    scroll-behavior: smooth;
 }
 
 /* Styling for sections */
