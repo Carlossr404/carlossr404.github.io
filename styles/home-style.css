@@ -116,17 +116,19 @@ section {
 /* NAVIGATION STYLING START */
 /* Styling for side, which will contain our logo and nav-list */
 .side {
-    height: 100%;
+    height: 100vh;
     width: 20%;
     background: var(--nav-bg-color);
     position: fixed;
     left: 0;
     top: 0;
-    padding-top: 10px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
     z-index: 10;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
 }
 
 /* Sytling for the logo within the side */
@@ -136,7 +138,6 @@ section {
     text-decoration: none;
     font-weight: bold;
     color: var(--accent-color);
-    margin-right: 60px;
 }
 
 /* Styling for the actual navigation list, within the side*/
@@ -157,10 +158,21 @@ section {
     display: flex;
     align-items: center;
     gap: 5px;
+    transition: transform 0.2s ease;
+}
+
+.icon-container-nav {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 55%;
+    max-height: 100%;
 }
 
 .side .nav li a:hover {
     color: var(--accent-color);
+    transform: scale(1.25);
 }
 
 .side .nav li a img {
