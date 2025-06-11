@@ -6,7 +6,7 @@ This is my personal website/portfolio developed using HTML, CSS, and some JavaSc
 ### Home - 
 Landing page for my website. Includes bio and headshot injected from github via github API. Also includes link to my github account.
 
-TODO: 
+TODO: <br/>
 [ ] Add link to LinkedIn
 
 ### About - 
