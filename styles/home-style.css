@@ -1,0 +1,165 @@
+/* Main variables we will use throughout styling */
+:root {
+    --main-bg-color: #414040;
+    --nav-bg-color: #2b2b2b;
+    --accent-color: #a117ad;
+    --font-size-base: 22px;
+    --logo-size: 1.5rem;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: var(--font-size-base);
+    color: #FFF;
+}
+
+/* Styling for sections */
+section {
+    background: var(--main-bg-color);
+    min-height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 20%;
+    box-sizing: border-box;
+    width: 80%;
+    overflow-x: hidden;
+}
+
+.heading {
+    color: var(--accent-color);
+}
+
+.sub-heading {
+    font-size: .9rem;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.home-content {
+    max-width: 60%;
+    text-align: left;
+    padding-left: 5%;
+    font-size: var(--font-size-base);
+}
+
+.home-content p {
+    font-size: 0.9rem;
+}
+
+.name {
+    color: var(--accent-color)
+}
+
+.typing {
+    color: var(--accent-color)
+}
+
+/* Styling for images in home */
+.home-imgs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.home-imgs-container a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.5rem;
+    transition: transform 0.2s ease;
+}
+
+/* Styling for profile image */
+.home-image {
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.github-icon {
+    height: 35px;
+    width: 35px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.home-imgs-container a:hover {
+    transform: scale(1.1);
+
+}
+
+.github-icon:hover {
+    transform: scale(1.1);
+}
+
+/* HOME STYLING END */
+
+/* NAVIGATION STYLING START */
+/* Styling for side, which will contain our logo and nav-list */
+.side {
+    height: 100%;
+    width: 20%;
+    background: var(--nav-bg-color);
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 10px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Sytling for the logo within the side */
+.side .logo a {
+    font-size: var(--logo-size);
+    font-family: "Baumans", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-right: 60px;
+}
+
+/* Styling for the actual navigation list, within the side*/
+
+.side .nav {
+    margin-top: 75px;
+    padding-right: 50px;
+}
+
+.side .nav li {
+    list-style-type: none;
+    margin-bottom: 35px;
+}
+
+.side .nav li a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.side .nav li a:hover {
+    color: var(--accent-color);
+}
+
+.side .nav li a img {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* NAVIGATION STYLING END */

@@ -1,0 +1,52 @@
+:root {
+    --main-bg-color: #414040;
+    --nav-bg-color: #2b2b2b;
+    --accent-color: #a117ad;
+    --font-size-base: 22px;
+    --logo-size: 1.5rem;
+}
+
+.projects-content {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.project-card {
+    display: flex;
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+}
+
+.project-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.project-info {
+    color: white;
+}
+
+.project-title a {
+    text-decoration: none;
+    color: var(--accent-color);
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.project-description {
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
