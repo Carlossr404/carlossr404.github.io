@@ -121,13 +121,13 @@ section {
     background: var(--nav-bg-color);
     position: fixed;
     left: 0;
-    top: 0;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     z-index: 10;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 17.5%;
     box-sizing: border-box;
 }
 
@@ -143,7 +143,6 @@ section {
 /* Styling for the actual navigation list, within the side*/
 
 .side .nav {
-    margin-top: 75px;
     padding-right: 50px;
 }
 
@@ -166,8 +165,6 @@ section {
     display: flex;
     flex-direction: row;
     gap: 25px;
-    padding-top: 55%;
-    max-height: 100%;
 }
 
 .side .nav li a:hover {
@@ -179,5 +176,3 @@ section {
     text-decoration: none;
     color: inherit;
 }
-
-/* NAVIGATION STYLING END */
