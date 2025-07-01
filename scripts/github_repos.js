@@ -1,6 +1,6 @@
 const projectsGrid = document.getElementById('projects-grid')
 
-fetch('https://api.github.com/users/carlossr404/repos?sort=updated&per_page=4')
+fetch('https://api.github.com/users/carlossr404/repos?sort=updated&per_page=8')
     .then(response => response.json())
     .then(repos => {
         repos.forEach(repo => {
